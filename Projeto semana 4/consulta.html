@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <title>Consulta</title>
+    <style>
+        #filtro{
+            margin: -200px 30px;
+        }
+        tr:hover{
+          color: blue;
+        }
+        .mdl-data-table:hover {
+          background-color: #cfc3ec;
+        }
+    </style>
+</head>
+<body>
+    <!-- Always shows a header, even in smaller screens. -->
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+            <!-- Title -->
+            <span class="mdl-layout-title">Projeto semana 04</span>
+            <!-- Add spacer, to align navigation to the right -->
+            <div class="mdl-layout-spacer"></div>
+            <!-- Navigation. We hide it in small screens. -->
+            <nav class="mdl-navigation mdl-layout--large-screen-only">
+            <a class="mdl-navigation__link" href="index.html">Cadastro</a>
+            <a class="mdl-navigation__link" href="consulta.html">Consulta</a>
+            </nav>
+        </div>
+        </header>
+        <div class="mdl-layout__drawer">
+        <span class="mdl-layout-title">Projeto semana 04</span>
+        <nav class="mdl-navigation">
+            <a class="mdl-navigation__link" href="index.html">Cadastro</a>
+            <a class="mdl-navigation__link" href="consulta.html">Consulta</a>
+        </nav>
+        </div>
+    </div>
+    <table class="mdl-data-table mdl-js-data-table" style="margin: auto;">
+      <thead>
+        <tr>
+          <th class="mdl-data-table__cell--non-numeric">Name</th>
+          <th class="mdl-data-table__cell--non-numeric">Nickname</th>
+          <th class="mdl-data-table__cell--non-numeric">Living?</th>
+        </tr>
+      </thead>
+      <thead>
+        <tr>
+          <th class="mdl-data-table__cell--non-numeric">Nome do Produto</th>
+          <th class="mdl-data-table__cell--non-numeric">Tipo</th>
+          <th class="mdl-data-table__cell--non-numeric">Características</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="mdl-data-table__cell--non-numeric">Iphone 6</td>
+          <td class="mdl-data-table__cell--non-numeric">Smartphones</td>
+          <td class="mdl-data-table__cell--non-numeric">Branco</td>
+        </tr>
+        <tr>
+          <td class="mdl-data-table__cell--non-numeric">Iphone</td>
+          <td class="mdl-data-table__cell--non-numeric">Smartphones</td>
+          <td class="mdl-data-table__cell--non-numeric">Preto</td>
+        </tr>
+        <tr>
+          <td class="mdl-data-table__cell--non-numeric">Notebook</td>
+          <td class="mdl-data-table__cell--non-numeric">Informática</td>
+          <td class="mdl-data-table__cell--non-numeric">Branco</td>
+        </tr>
+        <tr>
+          <td class="mdl-data-table__cell--non-numeric">Geladeira</td>
+          <td class="mdl-data-table__cell--non-numeric">Eletrodomésticos</td>
+          <td class="mdl-data-table__cell--non-numeric">Prata</td>
+        </tr>
+      </tbody>
+    </table>
+      <div id="filtro">
+          <form>
+          <label for="filt">Filtro</label>
+          <input type="text" id="filt">
+          </form>
+      </div>
+</body>
+</html>

@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+#main {
+    background-image: url('casoDoKame.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+#title {
+    background-image: url('gokuTitle.jpg');
+    background-repeat: no-repeat;
+    background-position-y: -120px;
+    height: 300px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 5em;
+    text-align: center;    
+    color: #eea332;
+    text-shadow: 3px 3px #f04021;
+}
+
+img{
+    border-radius: 50%;
+    width: 100%;
+}
+
+#img-div{
+    margin: auto;
+    padding: 25px;
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+
+p {
+    font-size: 1em;
+    color: #ffffff;
+    text-shadow: 1.5px 1.5px #000000;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'East Sea Dokdo', cursive;
+    font-size: 2em;
+    text-shadow: 2px 2px #000000;
+    padding: 10px;
+}
+
+header {
+    text-decoration: none;
+    background-image: url('imagemMenu.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40px;
+    margin-bottom: 10px;
+    display: flex;
+    width: 100%;
+    justify-content: center;  
+} 
+
+.imagem-goku{
+    height: 12%;
+    width: 12%;
+    display: flex;
+    padding: 25px;
+    text-align: center;
+    
+    
+}
+
+.imgs {
+    border-radius: 0%;
+    margin: 5px;
+    border: 2px solid #eea332;
+}
+
+.footer{
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.date{
+    font-family: 'East Sea Dokdo', cursive;
+    color: #ffffff;  
+}

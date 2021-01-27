@@ -1,0 +1,12 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.div-menu {
+    display: flex;
+    text-align: center;
+}
+ul {
+    list-style: none;
+}

@@ -1,0 +1,24 @@
+:root{
+    --font-principal: 50px;
+    
+}
+
+h1 {
+    font-size: var(--font-principal);
+    text-align: center;    
+} 
+
+h2 {
+    font-size: var(--font-principal);
+    text-align: center;
+}
+
+h3 {
+    font-size: var(--font-principal);
+    text-align: center;
+}
+
+h4 {
+    font-size: var(--font-principal);
+    text-align: center;
+}

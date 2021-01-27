@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.deep_orange-orange.min.css" /> 
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <link rel="stylesheet" href="style.css">    
+    <title>Pesquisa</title>
+</head>
+<body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header">
+          <div class="mdl-layout__header-row">
+            <!-- Title -->
+            <a href="index.html">
+                <img  id="logoiv2-menu"
+                    src="https://faculdadeiv2.com.br/img/new/home-split/logo-extenso-branco.png" width="300">
+            </a>
+            <!-- Add spacer, to align navigation to the right -->
+            <div class="mdl-layout-spacer"></div>
+            <!-- Navigation. We hide it in small screens. -->
+            <nav class="mdl-navigation mdl-layout--large-screen-only">
+              <a class="mdl-navigation__link" href="https://outlook.live.com/owa/">E-mail</a>
+              <a class="mdl-navigation__link" href="https://unsplash.com/">Images</a>
+              <a class="mdl-navigation__link" href="https://www.instagram.com/_delroy/"><img src="eu.jpg"width="50" height="50" border-radius="100"></a> 
+            </nav>
+          </div>
+        </header>
+
+        <!-- Square card -->
+        <div style="display: flex; margin: auto;">
+
+            <div class="demo-card-wide mdl-card mdl-shadow--2dp"
+                style="align-items: center; margin: auto; margin-left: 20px; margin-right: 20px; width: 45%;">
+                
+                <div class="mdl-card__title" style="font-size: 2em; text-align: justify;">
+                    <a href="https://faculdadeiv2.com.br/" style="color:#9800aca9; text-decoration: none;">Faculdade
+                        iv2</a>
+                </div>
+                <div class="mdl-card__media" style="background-color: white;">
+                    <img width="200" src="https://iv2.com.br/img/hosting/logo2-sem-fundo-frase.png" alt="">
+                </div>
+                <div class="mdl-card__supporting-text"
+                    style="color: #570163a9; text-align: justify; background-color: rgba(0,0,0,0.1);">
+                    Com um novo conceito de formação, conectamos os nossos alunos a diferentes rotinas aplicadas do mercado tecnológico...
+                </div>
+                <div class="mdl-card__actions mdl-card--border">
+                    <a href="https://class.faculdadeiv2.com.br/#/auth/login" target="_blank"
+                        class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" style="color: #ff7300;">
+                         Faculdade iv2
+                    </a>
+                </div>
+                <div class="mdl-card__menu">
+                    <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+                        <i class="material-icons">share</i>
+                    </button>
+                </div>
+            </div>
+
+            <div style="background-color: white; box-shadow: 0px 1px 2px black; width: 680px; margin: auto; margin-left: 20px; margin-right: 20px;">
+                <iframe height="440" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3667.375379526931!2d-46.9125153852592!3d-23.19298668486704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf242f9edb5835%3A0x218e58dfff9f770f!2sR.%20Paulino%20Corado%2C%2020%20-%20Jardim%20Santa%20Teresa%2C%20Jundia%C3%AD%20-%20SP%2C%2013211-413!5e0!3m2!1spt-BR!2sbr!4v1605269336499!5m2!1spt-BR!2sbr" frameborder="0"></iframe>
+            </div>
+
+        </div>
+    
+
+        <footer class="mdl-mini-footer" style="z-index: 1000;">
+            <div style="display: inline;">
+                <div class="mdl-mini-footer__link-section">
+                     <a href="brasil.html" style="text-decoration: none; color: white;">
+                            Brasil
+                    </a>
+                </div>
+                <div class="mdl-mini-footer__left-section">
+                     <ul class="mdl-mini-footer__link-list">
+                        <li><a href="#">Publicidade</a></li>
+                        <li><a href="#">Negócios</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="#">Como não Funciona</a></li>
+                    </ul>
+                 </div>
+                </div>
+            <div class="mdl-mini-footer__right-section" style="transform: translateY(20px);">
+                 <ul class="mdl-mini-footer__link-list" style="margin-right: 15px;">
+                     <li><a href="#">Privacidade</a></li>
+                     <li><a href="#">Termos</a></li>
+                     <li><a onclick="changeHREF()" style="cursor: pointer;">Configurações</a></li>
+                </ul>
+            </div>
+    </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

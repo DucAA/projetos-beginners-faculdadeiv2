@@ -1,0 +1,18 @@
+main {
+    width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+p {
+    font-size: 35;
+}
+
