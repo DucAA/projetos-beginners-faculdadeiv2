@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: #FC354C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0ABFBC, #FC354C);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0ABFBC, #FC354C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#div-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+#img-perfil {
+    border-radius: 50%;
+    width: 20%;
+}
+
+h1 {
+    font-family: 'Notable', sans-serif;
+    margin-top: 10px;
+}
+
+.div-principal {
+    background-color: #ffffff;
+    height: 300px;
+    max-width: 435px;
+    margin-top: 20px;
+    margin-left: 325px;
+    margin-bottom: 20px;
+}
+
+
+
+.div-secundaria {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    max-height: 350px;
+}
+
+.btn {
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    margin-top: 3px;
+    height: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #FC354C;
+}
+
+.btn:hover {
+    background-color: #fc102c;
+}

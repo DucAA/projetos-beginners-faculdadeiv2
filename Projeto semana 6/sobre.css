@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: #FC354C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0ABFBC, #FC354C);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0ABFBC, #FC354C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+h1, p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+a { 
+    text-align: center;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #ffffff;
+}
+
+.links-github-seguidores {
+    margin-top: 10px;
+    margin-left: 450px;
+}
+
+div {
+   display: flex;
+   justify-content: center;
+    flex-direction: column;
+    margin-top: 10px; 
+}
+
+.links-github01, .links-github02, .links-github03 {
+    margin-bottom: 10px;
+}
+
+
+#img-linguagem {
+    margin-top: 10px;
+    margin-left: 250px;
+}
