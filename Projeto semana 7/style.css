@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Estilos index.html*/
+
+#div-menu {
+    width: 100%;
+    background-color: crimson;
+    
+}
+
+img {
+    width: 200px;
+    cursor: pointer;
+}
+
+
+ul {
+    display: flex;
+    justify-content: flex-end;   
+}
+
+
+a {
+    text-decoration: none;
+    color: floralwhite;
+}
+
+li {
+    list-style: none;
+    padding: 10px;
+    margin: 5px 15px;
+    color: floralwhite;
+    cursor: pointer;
+}
+
+.div-primaria {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+}
+
+.div-secundaria {
+    width: 330px;
+    height: 200px;
+    background-color: #ffffff;
+    margin: 15px;
+    box-shadow: 0 3px 3px 0 #00000054,0 3px 1px -2px #00000054,0 1px 5px 0 #00000054;
+    cursor: pointer;
+}
+
+
+.div-secundaria:hover {
+    transition: transform 0.5s;
+    transform: translateX(0) scale(1.05);
+    
+}
+
+/*Estilos consulta.html*/
+.div-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.card {
+    width: 330px;
+    height: 300px;
+    margin: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 3px 3px 0 #00000054,0 3px 1px -2px #00000054,0 1px 5px 0 #00000054;
+    cursor: pointer;
+}
+
+.continente, .regions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 70px;
+    border: none;
+    border-bottom: 1px solid #0000001f;
+    padding: 4px 0;
+    width: 60%;
+}
+
+/*Estilos consultaLocal.html*/
+.div-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.div-two {
+    width: 330px;
+    height: 200px;
+    background-color: #ffffff;
+    margin: 15px;
+    box-shadow: 0 3px 3px 0 #00000054,0 3px 1px -2px #00000054,0 1px 5px 0 #00000054;
+    cursor: pointer;
+}
+
+/*Estilos sobre.html*/
+.div-descricao {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.descricao{
+    text-align: center;
+    width: 600px;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: floralwhite;
+    background-color: crimson;
+}
+
+#rd {
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+
+#about-footer {
+    margin: 10px 10px;
+}
+
+#cookies-about {
+    text-align: center;
+    margin-top: 20px;
+}

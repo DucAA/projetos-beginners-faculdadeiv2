@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="sortcut icon" href="/img/clock.png">
+    <title>Consulta por IP</title>
+</head>
+<body>
+    <header>
+        <div id="div-menu">
+            <nav>
+                <ul>
+                    <li><a href="index.html"><img src="https://faculdadeiv2.com.br/img/new/home-split/logo-extenso-branco.png"></a></li>
+                    <li><a href="index.html">Página inicial</a></li>
+                    <li><a href="consultaIP.html">Consulta por IP</a></li>
+                    <li><a href="consultaLocal.html">Consulta por Local</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="div-card">
+            <div class="card">
+                <select name="continente" class="continente" id="tzone">
+                    <optgroup>
+                        <option value="" selected>Selecione um continente</option>
+                        <option value="Africa">Africa</option>
+                        <option value="America">America</option>
+                        <option value="Antarctica">Antarctica</option>
+                        <option value="Asia">Asia</option>
+                        <option value="Atlantic">Atlantic</option>
+                        <option value="Australia">Australia</option>
+                        <option value="Europe">Europe</option>
+                        <option value="Pacific">Pacific</option>
+                    </optgroup>
+                  </select>
+                  <select name="regions" class="regions" id="reg">
+                        <optgroup>
+                            <option value=""selected>Selecione uma região</option>
+                        </optgroup>
+                  </select>
+                  <di id="hora"></di>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="rodape" id="rd">
+            Este website não faz uso de cookies &#x1F36A;
+            <a id="about-footer" href="sobre.html">&#x1F449; About &#x1F448;</a>
+        </div>
+    </footer>
+    <script src="IP.js"></script>
+</body>
+</html>
